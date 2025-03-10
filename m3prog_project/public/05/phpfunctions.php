@@ -22,4 +22,29 @@ print $woordLengte;
 $test = "hoelang";
 $woordLang = strlen($test);
 print $woordLang;
+
+
+pow (2, 2);
+"<br>";
+$tweeMacht2 = pow(2, 10); 
+print "<br>";
+print $tweeMacht2;
+
+$graden = pow(3, 4);
+"<br>";
+print "<br>";
+print $graden;
+
+
+// vraag 1: hoe geven we het resultaat door? 
+// vraag 1 antwoord: met return
+// https://www.php.net/manual/en/function.strtoupper.php
+
+"<br>";
+print "<br>";
+
+$naam = "Wario";
+$str = strtoupper($naam);
+$naamGroot = print $str;
+print $naamGroot;
 ?>
